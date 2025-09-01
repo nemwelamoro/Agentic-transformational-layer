@@ -3,6 +3,11 @@ pandas>=1.5.0
 langgraph>=0.1.0
 sqlalchemy>=1.4.0
 
+# FastAPI dependencies
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+python-multipart>=0.0.6
+
 # LLM dependencies - Gemini
 langchain>=0.1.0
 langchain-google-genai>=1.0.0

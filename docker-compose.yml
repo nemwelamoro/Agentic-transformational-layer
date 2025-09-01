@@ -1,0 +1,16 @@
+#version: '3.8'
+
+services:
+  api:
+    build: .
+    env_file:
+      - .env
+    ports:
+      - "8001:8001"
+    volumes:
+      - .:/app
+      - /app/avenv  # Exclude virtual environment
+    working_dir: /app
+    command: python main.py
+    environment:
+      - PYTHONPATH=/app

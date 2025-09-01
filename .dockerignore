@@ -1,0 +1,12 @@
+avenv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.git
+.gitignore
+.env.example
+temp_*
+*.tmp
+.vscode/
+.idea/
